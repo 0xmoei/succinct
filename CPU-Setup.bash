@@ -1,4 +1,3 @@
-```console
 # Update package lists and install essential packages
 sudo apt update
 sudo apt install -y curl openssl iptables build-essential protobuf-compiler git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev tar clang bsdmainutils ncdu unzip libleveldb-dev libclang-dev ninja-build
@@ -34,4 +33,3 @@ docker run hello-world
 
 # Pull the Succinct Prover CPU Docker image
 docker pull public.ecr.aws/succinct-labs/spn-node:latest-cpu
-```
