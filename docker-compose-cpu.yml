@@ -1,0 +1,15 @@
+services:
+  spn-node:
+    image: public.ecr.aws/succinct-labs/spn-node:latest-cpu
+    network_mode: host
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - NETWORK_PRIVATE_KEY=${PRIVATE_KEY}
+    command: >
+      prove
+      --rpc-url https://rpc.sepolia.succinct.xyz
+      --throughput ${PGUS_PER_SECOND}
+      --bid ${PROVE_PER_BPGU}
+      --private-key ${PRIVATE_KEY}
+      --prover ${PROVER_ADDRESS}
