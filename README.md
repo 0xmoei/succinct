@@ -114,7 +114,7 @@ docker compose logs -f
 docker compose logs -fn 100
 ```
 
-#$# For CPU Setup
+### For CPU Setup
 ```console
 # All logs
 docker compose -f docker-compose-cpu.yml logs -f
