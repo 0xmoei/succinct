@@ -4,7 +4,7 @@
 **Minimal Setup**
 * CPU: 8 cores
 * Memory: 16GB+
-* NVIDIA GPU (e.g., RTX 4090, L4, A10G)
+* NVIDIA GPU >24GB vRAM (e.g., RTX 4090, L4, A10G)
 
 ---
 
