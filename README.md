@@ -1,10 +1,13 @@
 # Succinct Prover Guide
 
 ## Hardware Requirements:
-**Minimal Setup**
+**GPU Setup**
 * CPU: 8 cores
 * Memory: 16GB+
 * NVIDIA GPU >24GB vRAM (e.g., RTX 4090, L4, A10G)
+
+**CPU-only Setup**
+Tested with an 8-core CPU and 32GB RAM, and successfully generated proofs with ease.  
 
 ---
 
